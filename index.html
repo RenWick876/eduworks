@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name | Services & Digital Resources</title>
+  <meta name="description" content="Tutoring, lesson plans, PTA support, and digital resources for students and teachers." />
+  <style>
+    :root{
+      --bg:#0b1220; --card:#101a30; --text:#e9eefc; --muted:#a9b4d6;
+      --accent:#ffd43b; --accent2:#4da3ff;
+      --radius:16px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:linear-gradient(180deg,#070b14, var(--bg)); color:var(--text);}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max);margin:0 auto;padding:24px}
+    .nav{display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:800;letter-spacing:.2px}
+    .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow:var(--shadow)}
+    .navlinks{display:flex;gap:14px;flex-wrap:wrap}
+    .pill{padding:10px 14px;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(255,255,255,.04)}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:stretch;margin-top:22px}
+    .card{background:rgba(16,26,48,.7);border:1px solid rgba(255,255,255,.10);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero .left{padding:26px}
+    .kicker{display:inline-flex;gap:10px;align-items:center;color:var(--muted);font-weight:600}
+    .dot{width:8px;height:8px;border-radius:99px;background:var(--accent)}
+    h1{font-size:42px;line-height:1.05;margin:14px 0 10px}
+    p{color:var(--muted);line-height:1.6;margin:0}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{padding:12px 16px;border-radius:14px;font-weight:750;display:inline-flex;gap:10px;align-items:center}
+    .btn.primary{background:var(--accent);color:#121826}
+    .btn.secondary{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}
+    .hero .right{padding:18px;display:flex;flex-direction:column;gap:12px}
+    .stat{padding:16px}
+    .stat b{font-size:20px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .tile{padding:18px}
+    .tile h3{margin:0 0 8px;font-size:18px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(77,163,255,.14);border:1px solid rgba(77,163,255,.25);color:#cfe7ff;font-weight:650;font-size:12px}
+    .section{margin-top:22px}
+    .section h2{margin:0 0 10px;font-size:26px}
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .item{padding:18px}
+    .item h3{margin:0 0 8px}
+    .price{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:10px}
+    .price span{color:var(--muted)}
+    .footer{margin:26px 0 10px;color:var(--muted);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    @media (max-width: 860px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .list{grid-template-columns:1fr}
+      h1{font-size:36px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px;color:var(--muted);font-weight:700;">YOUR BRAND</div>
+          <div style="font-size:18px;">Services & Digital Resources</div>
+        </div>
+      </div>
+      <div class="navlinks">
+        <a class="pill" href="#services">Services</a>
+        <a class="pill" href="#products">Digital Products</a>
+        <a class="pill" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="card left">
+        <div class="kicker"><span class="dot"></span> Jamaica-friendly • WhatsApp-first • Easy to pay</div>
+        <h1>Turn your skills into income—online.</h1>
+        <p>
+          I help parents, students, and teachers with tutoring, lesson support, school documents, and ready-to-use digital resources.
+          Book a service or purchase a download in minutes.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">📅 Book a Service</a>
+          <a class="btn secondary" href="#products">🛒 Browse Downloads</a>
+        </div>
+        <div style="margin-top:14px;color:var(--muted);font-size:13px">
+          Tip: Start with 1–2 services + 3 digital products. Add more weekly.
+        </div>
+      </div>
+
+      <div class="card right">
+        <div class="card stat">
+          <div class="badge">FAST START</div>
+          <div style="margin-top:8px"><b>Services = quickest cash</b></div>
+          <div style="color:var(--muted);margin-top:6px">Tutoring, lesson plans, PTA docs, portfolios.</div>
+        </div>
+        <div class="card stat">
+          <div class="badge">PASSIVE</div>
+          <div style="margin-top:8px"><b>Downloads = earn anytime</b></div>
+          <div style="color:var(--muted);margin-top:6px">Worksheets, exam packs, templates.</div>
+        </div>
+        <div class="card stat">
+          <div class="badge">GROWTH</div>
+          <div style="margin-top:8px"><b>Email list = repeat buyers</b></div>
+          <div style="color:var(--muted);margin-top:6px">Collect emails with a freebie.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid section" id="services">
+      <div class="card tile">
+        <h3>📚 Tutoring</h3>
+        <p>Math & Language Arts support for primary students. Online or in-person (where possible).</p>
+      </div>
+      <div class="card tile">
+        <h3>🧾 School & PTA Documents</h3>
+        <p>Letters, agendas, meeting packs, reports, proposals—clean and professional.</p>
+      </div>
+      <div class="card tile">
+        <h3>🎨 Posters & Flyers</h3>
+        <p>Event flyers, fundraising posters, class branding—ready to print and share.</p>
+      </div>
+    </div>
+
+    <div class="section" id="products">
+      <h2>Digital Products</h2>
+      <p>Replace these samples with your real items. Each product can link to Payhip/Gumroad later.</p>
+
+      <div class="list" style="margin-top:14px">
+        <div class="card item">
+          <h3>Grade 5 Math Exam Pack</h3>
+          <p>Practice questions + answers. Great for homework and revision.</p>
+          <div class="price">
+            <span>Download (PDF)</span>
+            <a class="btn secondary" href="#contact">Buy</a>
+          </div>
+        </div>
+        <div class="card item">
+          <h3>Performance Task Bundle</h3>
+          <p>Project-style tasks for Math & Language Arts. Rubrics included.</p>
+          <div class="price">
+            <span>Download (PDF)</span>
+            <a class="btn secondary" href="#contact">Buy</a>
+          </div>
+        </div>
+        <div class="card item">
+          <h3>Teacher Template Pack</h3>
+          <p>Lesson plan templates, observation reflection forms, parent notes.</p>
+          <div class="price">
+            <span>Download (ZIP)</span>
+            <a class="btn secondary" href="#contact">Buy</a>
+          </div>
+        </div>
+        <div class="card item">
+          <h3>PTA Meeting Starter Kit</h3>
+          <p>Agenda template, minutes template, roles, and sample motions.</p>
+          <div class="price">
+            <span>Download (PDF)</span>
+            <a class="btn secondary" href="#contact">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Book / Contact</h2>
+      <p>Replace the WhatsApp number + email below with yours.</p>
+
+      <div class="card" style="padding:18px;margin-top:12px">
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn primary" href="https://wa.me/18760000000" target="_blank" rel="noreferrer">💬 WhatsApp Me</a>
+          <a class="btn secondary" href="mailto:youremail@example.com">✉️ Email Me</a>
+          <a class="btn secondary" href="#" onclick="alert('Add your booking link here (Calendly).')">📅 Booking Link</a>
+        </div>
+        <div style="margin-top:12px;color:var(--muted);font-size:13px">
+          Business hours: Mon–Fri • Response within 24 hours.
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> YOUR BRAND • All rights reserved</div>
+      <div>Made to sell services + downloads</div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
